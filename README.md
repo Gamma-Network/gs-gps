@@ -71,18 +71,14 @@ Config.EMSDepartment = {
 
 3. **Close GPS**: Use the `/closegps` command to close the GPS. You must have the GPS item to close it.
 
-## Screenshots
-
-![GPS Screenshot](link_to_screenshot)
-
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! Feel free to fork the repository and submit pull requests for any improvements or bug fixes.
 
-1. Fork the repository.
-2. Create a new branch for your feature or fix.
-3. Submit a pull request with a description of your changes.
+## Legal Note
 
-## License
+This code is open for improvements and personal usage. Any contributions that enhance functionality are highly encouraged.
+<p align="center">
+<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceCCBYNCND/licenceccbyncnd1.svg">
+</p>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
