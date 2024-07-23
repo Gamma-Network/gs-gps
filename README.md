@@ -9,7 +9,6 @@ A FiveM GPS script that provides functionality for navigation and location track
 - **GPS Management**: Enable and disable GPS with commands.
 - **Blip Handling**: Add, update, and remove blips for players and vehicles.
 - **Department-Specific Blips**: Customizable blip colors and text for police and EMS.
-- **Inventory Integration**: Check for GPS item availability before enabling GPS.
 - **Dynamic Updates**: Real-time updates of player and vehicle locations.
 
 ## Installation
@@ -17,6 +16,7 @@ A FiveM GPS script that provides functionality for navigation and location track
 1. **Download or clone** this repository.
 2. **Place** the `gs-gps` folder in your `resources` directory.
 3. **Add** `start gs-gps` to your `server.cfg` file.
+4. **Add** the GPS item to your QBcore inventory system.
 
 ## Configuration
 
@@ -65,11 +65,9 @@ Config.EMSDepartment = {
 
 ## Usage
 
-1. **Add GPS Item**: Ensure the GPS item is added to your QBcore inventory. The item must be configured in your QBcore inventory system for this script to function correctly.
-
-2. **Open GPS**: Use the `/setgps` command to open the GPS interface. You need to have the GPS item in your inventory to use this feature.
-
-3. **Close GPS**: Use the `/closegps` command to close the GPS. You must have the GPS item to close it.
+1. **Add GPS Item**: Ensure that the GPS item is added to your QBcore inventory system.
+2. **Open GPS**: Use the in-game GPS item to open the GPS interface. If you have the item and are in a valid job (police or EMS), you can enter the required information.
+3. **Close GPS**: Use the GPS item to close the GPS if it is currently active.
 
 ## Contributing
 
