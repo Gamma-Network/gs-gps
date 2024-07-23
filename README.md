@@ -1,8 +1,8 @@
-# FiveM GPS Script
+# GammaScript GPS - FiveM Lua Script
 
 ## Description
 
-A FiveM GPS script that provides functionality for navigation and location tracking. It allows police and medical staff to manage and view GPS blips on the map, including car blips.
+GammaScript GPS script that provides functionality for navigation and location tracking. It allows police and medical staff to manage and view GPS blips on the map, including car blips.
 
 ## Features
 
