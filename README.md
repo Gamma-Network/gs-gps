@@ -63,16 +63,13 @@ Config.EMSDepartment = {
 }
 ```
 
-## Commands
-
-- **/setgps [number] [department]**: Set a GPS location for police.
-- **/setgps [number]**: Set a GPS location for EMS.
-- **/closegps**: Close the GPS if you have the GPS item.
-
 ## Usage
 
-1. **Open GPS**: Use the `/setgps` command to open the GPS interface and enter the required information.
-2. **Close GPS**: Use the `/closegps` command to close the GPS.
+1. **Add GPS Item**: Ensure the GPS item is added to your QBcore inventory. The item must be configured in your QBcore inventory system for this script to function correctly.
+
+2. **Open GPS**: Use the `/setgps` command to open the GPS interface. You need to have the GPS item in your inventory to use this feature.
+
+3. **Close GPS**: Use the `/closegps` command to close the GPS. You must have the GPS item to close it.
 
 ## Screenshots
 
